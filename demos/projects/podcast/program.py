@@ -7,7 +7,7 @@ def main():
 
     service.download_info()
 
-    for show_id in range(100, 130):
+    for show_id in range(120, 150):
         info = service.get_episode(show_id)
 
         print(f'{info.show_id}. {info.title}')
